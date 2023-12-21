@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "parTopLevelManagementGroupPrefix": {
+      "value": "umit"
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parLandingZoneMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parPlatformMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneMgConfidentialEnable": {
+      "value": false
+    },
+    "parLogAnalyticsWorkspaceResourceId": {
+      "value": "/subscriptions/3635d528-8200-499c-abe1-49a1cf3b26f9/resourcegroups/rg-umit-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+    },
+    "parLandingZoneMgChildren": {
+      "value": []
+    },
+    "parPlatformMgChildren": {
+      "value": []
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    }
+  }
+}
